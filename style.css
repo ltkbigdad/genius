@@ -1,0 +1,76 @@
+.conteinerhp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+    background-image: radial-gradient(circle at 100% 0%, #fffed0 0, #fcf5cb 8.33%, #f6e9c5 16.67%, #ecdbbf 25%, #ddccb7 33.33%, #c9bbaf 41.67%, #b0a9a4 50%, #969899 58.33%, #7e898e 66.67%, #697d84 75%, #56747a 83.33%, #476c71 91.67%, #3c6769 100%);
+}
+
+.gamehp {
+	width: 48rem;
+	height: 48rem;
+	display: flex;
+	flex-wrap: wrap;	
+	position: relative;
+}
+
+.hp__title{
+    font-size: 4rem;
+    margin: 0;
+}
+.hp__title--footer{
+    font-size: 3rem;
+}
+
+.game__optionshp{
+	position: absolute;
+	background-color: black;
+
+	width: calc(48rem /2);
+	height: calc(48rem /2);
+	top: calc(48rem /4);
+	left: calc(48rem /4);
+	border: var(--game-border);
+	border-radius: 25rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.game__optionshp--input{
+    margin-top: 17%;
+}
+
+.game__optionshp--buttons{
+    background-color: var(--clr-center);
+    width: 100%;
+    height: 55%;
+    margin-top: 20%;
+    
+    border-bottom-left-radius: 25rem;
+    border-bottom-right-radius: 25rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game__optionshp--btn{
+    width: 7.5rem;
+	height: 2.5rem;
+	/* margin-left: .2rem; */
+	
+	box-shadow: 0 .2rem .3rem #222;
+	border: .4rem solid #444;
+	cursor: pointer;   
+}
+.game__optionshp--btn:active{
+	transform: translate(0, .3rem);
+	box-shadow: none;
+}
+
+.btn__inst{
+    margin-left: 1rem;
+}
