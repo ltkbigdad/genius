@@ -10,16 +10,32 @@
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" 
 />
-<link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="styles/globalstyles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="containerhp">
+        <h1 class="hp__title">Genius</h1>
 
-    <h1>Genius</h1>
+        <div class="gamehp">
+            <div class="game__pad game__pad--tl"></div>
+            <div class="game__pad game__pad--tr"></div>
+            <div class="game__pad game__pad--bl"></div>
+            <div class="game__pad game__pad--br"></div>
 
-    <a href="/pages/game.html"><button>Jogar</button></a>
-    <a href="/pages/instructions.html"><button>Instruções</button></a>
-    
+            <div class="game__optionshp">
+                <input class="game__optionshp--input" type="text" placeholder="Digite seu nome"/>
+                <div class="game__optionshp--buttons">
+                  <a href="src/pages/game/index.html"><button class="game__optionshp--btn btn__play">Jogar</button></a>
+                   <a href="src/pages/instructions/index.html"><button class="game__optionshp--btn btn__inst">Instruções</button></a>
+                </div>
+            </div>
+        </div>
 
+        <h2 class="hp__title--footer">Desafie-se, veja qual é o seu limite!</h2>
+
+
+    </div>
     <script src="../src/js/scripts.js"></script>
 </body>
 </html>

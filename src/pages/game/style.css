@@ -1,42 +1,3 @@
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
-:root {
-	--clr-normal-green:   #00A74A;
-	--clr-normal-red:     #9F0F17;
-	--clr-normal-yellow:  #CCA707;
-	--clr-normal-blue:    #094A8F;
-	
-	--clr-light-green:    #13ff7c;
-	--clr-light-red:      #ff4c4c;
-	--clr-light-yellow:   #fed93f;
-	--clr-light-blue:     #1c8cff;
-	
-	--clr-border:		  #333333;
-	--clr-center:  		  #ECE7EE;
-
-	--clr-counter-bg:	  #32050C;
-	--clr-counter-off:	  #430710;
-	--clr-counter-on:	  #DC0D29;
-	
-	--clr-switch: 	      #3193DE;
-
-	--game-size: 48rem;
-	--game-border: 1.5rem solid var(--clr-border);
-}
-
-html {
-	font-size: 62.5%;
-}
-
-body {
-	/* background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png'); */
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 /**********************************/
 /* 2. Body
 /**********************************/
@@ -63,6 +24,7 @@ body {
 	margin: 0;
 	padding-left: 1.2rem;
 	padding-top: 4.7rem;
+    text-align: center;
 }
 
 /**********************************/
@@ -234,6 +196,8 @@ body {
 footer {
 	text-align: center;
 	margin-top: 5rem;
-	font-size: 2rem;
+	font-size: 3rem;
+    margin-bottom: 2rem;
+    
 }
 

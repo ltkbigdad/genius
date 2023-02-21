@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--clr-normal-green:   #00A74A;
+	--clr-normal-red:     #9F0F17;
+	--clr-normal-yellow:  #CCA707;
+	--clr-normal-blue:    #094A8F;
+	
+	--clr-light-green:    #13ff7c;
+	--clr-light-red:      #ff4c4c;
+	--clr-light-yellow:   #fed93f;
+	--clr-light-blue:     #1c8cff;
+	
+	--clr-border:		  #333333;
+	--clr-center:  		  #ECE7EE;
+
+	--clr-counter-bg:	  #32050C;
+	--clr-counter-off:	  #430710;
+	--clr-counter-on:	  #DC0D29;
+	
+	--clr-switch: 	      #3193DE;
+
+	--game-size: 48rem;
+	--game-border: 1.5rem solid var(--clr-border);
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	/* background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png'); */
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: radial-gradient(circle at 100% 0%, #fffed0 0, #fcf5cb 8.33%, #f6e9c5 16.67%, #ecdbbf 25%, #ddccb7 33.33%, #c9bbaf 41.67%, #b0a9a4 50%, #969899 58.33%, #7e898e 66.67%, #697d84 75%, #56747a 83.33%, #476c71 91.67%, #3c6769 100%);
+}
+
