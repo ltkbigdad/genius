@@ -1,27 +1,32 @@
-
 .containerhp{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
+
     height: 100vh;    
+
 }
 
 .gamehp {
 	width: 48rem;
 	height: 48rem;
+
     margin-top: 2rem;
+
 	display: flex;
 	flex-wrap: wrap;	
 	position: relative;
 }
 
 .hp__title{
-    font-size: 6rem;    
+    font-size: 6rem;   
 }
 .hp__title--footer{
     font-size: 3rem;
 }
+
 
 .game__pad{
 	width: calc(48rem /2);
@@ -113,3 +118,5 @@
 .btn__inst{
     margin-left: 1rem;
 }
+
+
