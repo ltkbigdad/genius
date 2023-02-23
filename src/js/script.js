@@ -1,3 +1,5 @@
+    
+// aqui está cetado as variáveias ---------------------------
 const _data = {
 	gameOn: false,
 	timeout: undefined,
@@ -16,8 +18,19 @@ const _gui = {
 	led: document.querySelector(".gui__led"),
 	strict: document.querySelector(".gui__btn--strict"),
 	start: document.querySelector(".gui__btn--start"),
-	pads: document.querySelectorAll(".game__pad")
+	pads: document.querySelectorAll(".game__pad"),
 }
+// ----------------------------------------------------------
+
+// essa condicional é para pegar o value digitado no input da homepage e dizer olá para o usuário
+// caso não seja digitado NamedNodeMap, o usuário será chamado de jogador.
+    if (localStorage.user){
+    let  userName = document.querySelector(".user__txt");
+    userName.innerHTML = localStorage.user;
+} else {
+    userName = "jogador";
+}
+
 
 const _soundUrls = [    
 	"../audio/simonSound1.mp3",
