@@ -26,9 +26,12 @@ body{
 
 .hp__title{
     font-size: 6rem;   
+	margin-bottom: 0;
+	margin-top: 10px;
 }
 .hp__title--footer{
     font-size: 3rem;
+	margin-top: 10px;
 }
 
 .game__optionshp--input{

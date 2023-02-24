@@ -1,8 +1,36 @@
+body{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	background-image: radial-gradient(circle at 100% 0%, #fffed0 0, #fcf5cb 8.33%, #f6e9c5 16.67%, #ecdbbf 25%, #ddccb7 33.33%, #c9bbaf 41.67%, #b0a9a4 50%, #969899 58.33%, #7e898e 66.67%, #697d84 75%, #56747a 83.33%, #476c71 91.67%, #3c6769 100%);
+}
+
 /**********************************/
 .header{
 	display: flex;
-	border: 1px solid black;
+	justify-content: space-between;
+	align-items: center;
+	width: 88%;	
+	margin-top: 2rem;
+}
+.game__title--header{
+	font-size: 1.8rem;
+}
+
+.return--game{
+	width: 9rem;
+	height: 4rem;
 	
+	font-size: 1rem;
+	
+	box-shadow: 0 .2rem .3rem #222;
+	border: .4rem solid #444;
+	cursor: pointer;   
+}
+.return--game:active{
+	transform: translate(0, .3rem);
+	box-shadow: none;
 }
 /* 2. Body
 /**********************************/
@@ -20,7 +48,7 @@
 	height: 48rem;
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 5rem;
+	margin-top: 1rem;
 	position: relative;
 }
 .game__title{
@@ -200,9 +228,8 @@
 /**********************************/
 footer {
 	text-align: center;
-	margin-top: 5rem;
-	font-size: 3rem;
-    margin-bottom: 2rem;
-    
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+	font-size: 3rem;    
 }
 
