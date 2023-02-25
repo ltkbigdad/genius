@@ -133,6 +133,10 @@ body{
     margin-left: 1rem;
 }
 
+/**********************************/
+/* responsividade
+/**********************************/
+
 @media (max-width: 480px)
 {
 	.hp__title{
