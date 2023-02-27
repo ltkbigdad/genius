@@ -300,16 +300,20 @@ footer {
 
 	.game__pad--tl{		
 		border-top-left-radius: 0;
+		outline: none;
 	}
 	.game__pad--tr{		
 		border-top-right-radius: 0;
+		outline: none;
 	}
 	.game__pad--bl{		
 		border-bottom-left-radius: 0;
+		outline: none;
 	}
 	.game__pad--br{
 		
 		border-bottom-right-radius: 0;
+		outline: none;
 	}
 
 	.group{
