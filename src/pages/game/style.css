@@ -321,6 +321,19 @@ footer {
 		cursor: none;
 	}
 
+	.game__pad--tl.game__pad--active {
+		cursor: none;
+	}
+	.game__pad--tr.game__pad--active {
+		cursor: none;
+	}
+	.game__pad--bl.game__pad--active {
+		cursor: none;
+	}
+	.game__pad--br.game__pad--active {
+		cursor: none;
+	}
+
 	
 
 	.group{
