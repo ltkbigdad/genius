@@ -56,3 +56,10 @@ button:active{
 	transform: translate(0, .3rem);
 	box-shadow: none;
 }
+
+@media (max-width: 480px)
+{
+    button{      
+        cursor: none;   
+    }
+}

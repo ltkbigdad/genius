@@ -245,7 +245,8 @@ footer {
 	}
 	
 	.return--game{
-		width: 5.5rem;			  
+		width: 5.5rem;	
+		cursor: none; 		  
 	}
 	/* 2. Body
 	/**********************************/
@@ -276,6 +277,10 @@ footer {
 		height: 36%;
 		margin: 0;		
 	}
+
+	.game__pad--btn{
+		cursor: none;
+	}
 	
 	/**********************************/
 	/* 3.2 Center
@@ -300,21 +305,23 @@ footer {
 
 	.game__pad--tl{		
 		border-top-left-radius: 0;
-		outline: none;
+		cursor: none;
 	}
 	.game__pad--tr{		
 		border-top-right-radius: 0;
-		outline: none;
+		cursor: none;
 	}
 	.game__pad--bl{		
 		border-bottom-left-radius: 0;
-		outline: none;
+		cursor: none;
 	}
 	.game__pad--br{
 		
 		border-bottom-right-radius: 0;
-		outline: none;
+		cursor: none;
 	}
+
+	
 
 	.group{
 		margin-right: 2.2rem;
@@ -333,6 +340,13 @@ footer {
     	width: 8.5rem;
 	}	
 	
+	.gui__btn{		
+		cursor: none;
+	}
+
+	.gui__btn-switch{		
+		cursor: none;
+	}
 	/**********************************/
 	/* 4. Footer
 	/**********************************/
