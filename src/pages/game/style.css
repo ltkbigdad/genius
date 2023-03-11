@@ -432,11 +432,11 @@ footer {
 		padding-left: 1.5rem;	
 	}
 	.group{
-		margin-right: .2rem;
+		margin-right: 2rem;
 	}
 	.group-large{		
 		width: 8rem;
-		margin-left: .5rem;
+		margin-left: 5rem;
 	}
 	
 	.gui__label{		
@@ -503,6 +503,14 @@ footer {
 	/**********************************/
 	/* 3.2 Center
 	/**********************************/
+
+	.group{
+		margin-right: 5rem;
+	}
+	.group-large{		
+		width: 10rem;
+		margin-left: 10rem;
+	}
 	
 	.game__options{		
 		width: calc(65rem /2);
@@ -510,6 +518,11 @@ footer {
 		top: calc(65rem /4);
 		left: calc(65rem /4);
 		
+	}
+
+	.gui__counter{		
+		font-size: 3.5rem;		
+		width: 7rem;
 	}
 
 	
